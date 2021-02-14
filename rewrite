@@ -12,18 +12,12 @@ hostname =nmeditation.snailsleep.net, bea.sportq.com, api.meiyan.com, *.gao1gps.
 #白描解锁黄金vip
 ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/sirsunknight/QuantumultX/master/Scripts/Baimiao.js
 
-#网易蜗牛读书解锁会员
-^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
-
-#蜗牛睡眠 全功能解锁VIP&付费音乐
-^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list) url script-response-body https://github.com/photonmang/quantumultX/raw/master/wnsm.js
-
 # 网易蜗牛读书VIP (By yxiaocai and JO2EY)
 ^https?://p\.du\.163\.com/readtime/info.json url reject
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
 
 # 腾讯新闻 去广告 (By Choler)
-#^https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/QQNews.js
+^https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/QQNews.js
 
 # WPS (By eHpo)
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
@@ -32,18 +26,18 @@ hostname =nmeditation.snailsleep.net, bea.sportq.com, api.meiyan.com, *.gao1gps.
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/NobyDa/QuantumultX/File/ColorWeather.js
 
 # Keep 解锁私人课程和动作库 (QX存在bug 该脚本可能无法生效)
-#^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js
+^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js
 
 # 扫描全能王 pro
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 
-#adguardpremium
+# adguardpremium
 ^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ url 302 https://raw.githubusercontent.com/langkhach270389/Scripting/master/Adguard.rsp
 
-#海豚记账 (by @superuv)
+# 海豚记账 (by @superuv)
 https:\/\/book\.haitunwallet\.com\/app\/vip\/status url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/HTJZ.js
 
-#流利说阅读 (by@火羽&@singee)
+# 流利说阅读 (by@火羽&@singee)
 ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/llyd.js
 
 # 有道云笔记VIP (ByAlex0510)
@@ -61,11 +55,11 @@ https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-b
 # 马卡龙 (By @CheeryTodo)
 https://app.api.versa-ai.com/pay/order/iap/check url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/mkl.js
 
-#蜗牛睡眠会员（by黑黑酱）
+# 蜗牛睡眠会员（by黑黑酱）
 ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/wnsm.js
+^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list) url script-response-body https://github.com/photonmang/quantumultX/raw/master/wnsm.js
 
 # 可可英语会员
 ^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/kkyy.js
 
-# 西窗烛 （By 黑黑酱）
-^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/xcz.js
+
