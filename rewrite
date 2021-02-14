@@ -16,17 +16,11 @@ hostname =nmeditation.snailsleep.net, bea.sportq.com, api.meiyan.com, *.gao1gps.
 ^https?://p\.du\.163\.com/readtime/info.json url reject
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
 
-# 腾讯新闻 去广告 (By Choler)
-^https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/QQNews.js
-
 # WPS (By eHpo)
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
 # 彩云天气 Vip
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/NobyDa/QuantumultX/File/ColorWeather.js
-
-# Keep 解锁私人课程和动作库 (QX存在bug 该脚本可能无法生效)
-^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js
 
 # 扫描全能王 pro
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
@@ -61,5 +55,4 @@ https://app.api.versa-ai.com/pay/order/iap/check url script-response-body https:
 
 # 可可英语会员
 ^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/kkyy.js
-
 
