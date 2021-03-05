@@ -685,3 +685,6 @@ https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577
 
 ##### https://nfstar.net/
 ^https:?/\/nfstar.net.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//limbopro.xyz/adguard/nfstar.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//limbopro.xyz/adguard/user-script.js"></script><link rel="stylesheet" href="https://limbopro.xyz/CSS/nfstar.css" type="text/css">
+
+# BoxJs
+^https?://boxjs.net url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
