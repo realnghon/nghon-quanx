@@ -688,3 +688,6 @@ https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577
 
 # BoxJs
 ^https?://boxjs.net url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
+
+# Emby
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embycrack.js
