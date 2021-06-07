@@ -66,7 +66,6 @@ https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body htt
 
 # XMind思维导图 (by @JigsaWo)
 https:\/\/www\.xmind\.cn\/\_res\/devices url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/XMind.js
-^https:\/\/www\.xmind\.cn\/_res\/devices url script-response-body https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/xmind.js
 
 # 石墨文档 (By Alex0510)
 https://api.shimo.im/users/ url script-response-body https://raw.githubusercontent.com/demo2099/jscool/master/Script/shimo.js
